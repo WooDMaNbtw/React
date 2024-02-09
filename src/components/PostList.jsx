@@ -3,7 +3,6 @@ import PostItem from "./PostItem";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
 const PostList = ({posts, title, remove}) => {
-
     if (!posts.length){
         return (
             <h1 style={{textAlign: 'center'}}>
