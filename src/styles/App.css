@@ -25,6 +25,7 @@
 
 .post__btns {
     display: flex;
+    padding: 15px;
 }
 
 
@@ -44,4 +45,20 @@
     opacity: 0;
     transform: translateX(-300px);
     transition: all 500ms ease-in;
+}
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 20px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
 }
